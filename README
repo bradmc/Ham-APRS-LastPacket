@@ -1,19 +1,17 @@
-Ham-APRS-LastPacket 0.02
-
 NAME
     Ham::APRS::LastPacket - A simple interface to retrieve the most recent
     packet data for a station from APRS-IS.
 
 VERSION
-    Version 0.02
+    Version 0.03
 
 INSTALLATION
     To install this module, run the following commands:
 
-	perl Makefile.PL
-	make
-	make test
-	make install
+    perl Makefile.PL
+    make
+    make test
+    make install
 
 SYNOPSIS
      use Ham::APRS::LastPacket;
@@ -93,14 +91,18 @@ METHODS
      Args     : n/a
 
 DEPENDENCIES
-    * XML::Simple
-    * LWP::UserAgent
-    * An Internet connection
+    *   XML::Simple
+
+    *   LWP::UserAgent
+
+    *   An Internet connection
 
 TODO
-    * Maybe provide a list of data items and the hashref hierarchy.
-    * Improve the module description.
-    * Improve error checking.
+    *   Maybe provide a list of data items and the hashref hierarchy.
+
+    *   Improve the module description.
+
+    *   Improve error checking.
 
 ACKNOWLEDGEMENTS
     *   This module gets its data from the aprsworld-to-XML interface, by
@@ -117,11 +119,16 @@ ACKNOWLEDGEMENTS
         http://aprs.org
 
 AUTHOR
-        Brad McConahay N8QQ, "<brad at n8qq.com>"
+    Brad McConahay N8QQ, "<brad at n8qq.com>"
 
 COPYRIGHT AND LICENSE
-        Copyright 2008 Brad McConahay N8QQ, all rights reserved.
+    "Ham::APRS::LastPacket" is Copyright (C) 2008-2010 Brad McConahay N8QQ.
 
-        This program is free software; you can redistribute it and/or modify
-        it under the same terms as Perl itself.
+    This module is free software; you can redistribute it and/or modify it
+    under the terms of the Artistic License 2.0. For details, see the full
+    text of the license in the file LICENSE.
+
+    This program is distributed in the hope that it will be useful, but it
+    is provided "as is" and without any express or implied warranties. For
+    details, see the full text of the license in the file LICENSE.
 
